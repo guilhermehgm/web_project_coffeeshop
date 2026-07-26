@@ -14,8 +14,8 @@
     />
     <title>Coffee shop</title>
     <link rel="shortcut icon" href="favicon.ico.ico" />
-    <link rel="stylesheet" href=".vendor/normalize.css" />
-    <link rel="stylesheet" href=".page/index.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,8 +27,101 @@
   <body>
     <div class="page">
       <header class="header">
-        <h1>Testando</h1>
+        <nav class="nav" aria-label="Menu principal">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt=" logo da triple espresso"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#Receitas" class="nav__link">Receitas</a>
+            </li>
+            <li>
+              <a href="#Reservar" class="nav__link">Reservar uma mesa </a>
+            </li>
+            <li>
+              <a href="#Contatos" class="nav__link"> contatos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">Café especial</h1>
+            <h2 class="header__subtitle">na biblioteca Triple Peaks</h2>
+
+            <p class="header__description">
+              Esta é a nossa zona de estudo!Temos aquele cafezinho para
+              energizar você e vibrações aconchegantes para soltar a
+              criatividade.
+            </p>
+          </div>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="cafeteria"
+            class="header__image"
+          />
+        </div>
+        <div class="header_footer">
+          <div class="header_footer__column">
+            <h1 class="header_footer__column_hours">Horário</h1>
+
+            <ul class="header_footer__list">
+              <li class="header_footer__list-item">
+                Segunda a sexta (10:00 - 19:00)
+              </li>
+              <li class="header_footer__list-item">
+                Sabádos e domingos (11:00 - 18:00)
+              </li>
+            </ul>
+          </div>
+          <div class="header__footer">
+            <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+          </div>
+        </div>
       </header>
+      <main class="content">
+        <section class="recipes" id="recipes">
+          <h1 class="recipes__title">RECEITAS</h1>
+          <p class="recipes__subtitle">
+            Confira algumas de nossas receitas que coletamos para seu lanchinho
+            caseiro:
+          </p>
+          <div class="recipes__videos">
+            <div class="recipes__video-item">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/Fa24C3yj4mY"
+                allowfullscreen
+              >
+              </iframe>
+
+              <div class="recipes__video-caption">
+                <p>Bolinho frito de polvilho</p>
+                <p>~7 min</p>
+              </div>
+            </div>
+
+            <div class="recipes__videos">
+              <div class="recipes__video-item">
+                <iframe
+                  class="recipes__iframe"
+                  src="https://www.youtube.com/embed/FhWZ5o_adXc"
+                  allowfullscreen
+                ></iframe>
+
+                <div class="recipes__video-caption">
+                  <p>O salgado mais querido</p>
+                  <p>~8 min</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+        </section>
+      </main>
     </div>
   </body>
 </html>
