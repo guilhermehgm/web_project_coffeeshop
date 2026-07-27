@@ -238,6 +238,7 @@ body {
   background: #2f80ed;
   border-radius: 50%;
   z-index: 0;
+  background-image: url(../favicon.ico\ \(2\).ico);
 }
 
 .footer__column {
