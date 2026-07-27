@@ -1,6 +1,7 @@
 body {
   margin: 0;
 }
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -61,7 +62,6 @@ body {
 
 .header__title {
   font-size: 60px;
-  font-weight: 0;
   margin: 183px 0 0;
   max-width: 729px;
   font-style: italic;
@@ -78,7 +78,7 @@ body {
 }
 
 .header__description {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 29px;
   max-width: 683px;
   margin-top: 28px;
@@ -152,7 +152,7 @@ body {
 
 .recipes__subtitle {
   max-width: 550px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
   margin: 24px 0 130px 0;
 }
@@ -175,7 +175,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 5px 0 0 0;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 30px;
 }
 .reservation {
@@ -201,7 +201,7 @@ body {
   flex-direction: column;
 }
 .form__label {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .form__input {
