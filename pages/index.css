@@ -68,7 +68,7 @@ body {
   color: #2f80ed;
   line-height: 72px;
 }
-.subtitle {
+.header__subtitle {
   font-size: 60px;
   font-weight: 400;
   max-width: 729px;
