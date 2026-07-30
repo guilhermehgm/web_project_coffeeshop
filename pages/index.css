@@ -103,7 +103,7 @@ body {
   align-items: flex-end;
 }
 
-.header__column-heading {
+.header__paragraph-heading {
   display: flex;
   font-weight: 500;
   font-size: 18px;
