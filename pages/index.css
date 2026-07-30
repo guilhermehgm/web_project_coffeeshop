@@ -59,7 +59,7 @@ body {
   align-items: flex-start;
 }
 
-.title {
+.header__title {
   font-size: 60px;
   margin: 183px 0 0;
   max-width: 729px;
