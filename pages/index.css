@@ -105,12 +105,12 @@ span {
 }
 
 .header__paragraph {
-  line-height: 9px;
   font-family: "Noto Serif";
   font-size: 18px;
   line-height: 30px;
   max-width: 683px;
   margin: 0;
+  letter-spacing: -1px;
 }
 
 .header__address {
