@@ -73,15 +73,15 @@ span {
   font-size: 60px;
   font-weight: 500;
   max-width: 709px;
-  line-height: 72px;
-  margin: -5px 0 0;
+  margin: -5px 0 28px;
   letter-spacing: -1px;
+  line-height: 72px;
 }
+
 .header__description {
-  font-size: 60px;
+  font-size: 18px;
   font-weight: 500;
   max-width: 709px;
-  line-height: 72px;
   margin: 0 0 28px;
 }
 
