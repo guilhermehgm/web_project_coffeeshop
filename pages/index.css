@@ -57,7 +57,7 @@ body {
 }
 .header__content {
   display: flex;
-  margin: -40px 0 0 0;
+  margin: 0;
   width: 100%;
 }
 
@@ -82,7 +82,7 @@ span {
   font-size: 18px;
   font-weight: 500;
   max-width: 709px;
-  margin: 0 0 28px;
+  margin: 0 0 0px;
 }
 
 .header__image {
@@ -114,11 +114,6 @@ span {
   color: #242323;
 }
 
-.header__address {
-  margin: 0;
-  color: #8e8e8e;
-  margin-bottom: 20px;
-}
 .content {
   display: flex;
   justify-content: flex-start;
