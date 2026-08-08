@@ -174,7 +174,6 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 100px 0 120px;
 }
 
 .reservation__title {
@@ -185,7 +184,10 @@ span {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0px 0 80px;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .reservation__form {
@@ -193,6 +195,7 @@ span {
   flex-direction: column;
   margin: 0 auto;
   max-width: 385px;
+  margin-bottom: 120px;
 }
 
 .reservation__label {
@@ -207,7 +210,6 @@ span {
 
 .reservation__input {
   height: 60px;
-
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
