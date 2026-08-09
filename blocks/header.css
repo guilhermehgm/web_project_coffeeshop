@@ -19,7 +19,7 @@
   width: 100%;
 }
 
-span {
+.header__span-accent {
   font-size: 60px;
   font-weight: 400;
   font-style: italic;
