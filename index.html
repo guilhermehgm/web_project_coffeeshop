@@ -70,7 +70,7 @@
           </p>
         </div>
       </header>
-      <main class="content">
+      <main class="recipe">
         <section class="recipes" id="recipes">
           <h2 class="recipes__title">Receitas</h2>
           <p class="recipes__subtitle">
@@ -108,22 +108,22 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <form class="form reservation__form">
-            <fieldset class="form__fieldset reservation__fieldset">
-              <label class="reservation__label" for="name">Nome*</label>
+          <form class="form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name">Nome*</label>
               <input
-                class="reservation__input"
+                class="form__input"
                 type="text"
                 id="name"
                 placeholder="nome"
                 required
               />
 
-              <label class="reservation__label" for="number"
+              <label class="form__label" for="number"
                 >Número de convidados*</label
               >
               <input
-                class="reservation__input"
+                class="form__input"
                 type="number"
                 id="number"
                 placeholder="1-8"
@@ -131,34 +131,31 @@
                 max="8"
                 required
               />
-              <label class="reservation__label" for="datetime-local"
+              <label class="form__label" for="datetime-local"
                 >Data e hora*</label
               >
               <input
-                class="reservation__input"
+                class="form__input"
                 type="datetime-local"
                 id="datetime-local"
                 required
               />
-              <label class="reservation__label" for="email">E-mail*</label>
+              <label class="form__label" for="email">E-mail*</label>
               <input
-                class="reservation__input"
+                class="form__input"
                 type="email"
                 id="email"
                 placeholder="email@email.com"
                 required
               />
             </fieldset>
-            <button class="reservation__button" type="submit">
+            <button class="form__button" type="submit">
               Reservar uma mesa
             </button>
-            <div class="reservation__checkbox">
-              <label
-                for="termos"
-                class="reservation__label reservation__label-checkbox"
-              >
+            <div class="form__checkbox">
+              <label for="termos" class="form__label form__label-checkbox">
                 <input
-                  class="reservation__checkbox-input"
+                  class="form__checkbox-input"
                   type="checkbox"
                   id="termos"
                   required
@@ -178,7 +175,7 @@
             class="footer__logo"
           />
 
-          <div>
+          <div class="footer__social">
             <h2 class="footer__social-heading">Midia Social</h2>
             <ul class="footer__list">
               <li class="footer__list-item">
