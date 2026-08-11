@@ -41,8 +41,7 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin: 5px 0 0 0;
+  margin: 15px 0 0;
   font-size: 18px;
   line-height: 30px;
-  margin: 24px 0 0;
 }
